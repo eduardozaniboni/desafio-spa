@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>SPA Universe</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="/css/menu.css" />
+
+    <!-- script -->
+    <script src="/js/index.js" type="module" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <img
+          class="logo-menu"
+          src="assets/logo.svg"
+          alt="universo em cartoon"
+        />
+        <nav class="nav-menu">
+          <a href="/" class="home current-page" onclick="route()">Home</a>
+          <a href="/universe" class="universe" onclick="route()">O Universo</a>
+          <a href="/exploration" class="exploration" onclick="route()"
+            >Exploração</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <div id="app"></div>
+  </body>
+</html>
